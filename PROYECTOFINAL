@@ -139,7 +139,7 @@ my_list = LinkedList()
 my_list.add(2)
 my_list.add("Hola")
 my_list.add(5)
-my_list.add_front("Juan")
+my_list.add_front("Karen")
 
 my_list.print_list()
 print("index 2:", my_list.index(2))
@@ -168,7 +168,7 @@ class Persona:
     return msg
 
 user1 = Persona("Leidi", "Santos", "21", "80274029719")
-user2 = Persona("Juan", "Sanchez", "23", "12412434243")
+user2 = Persona("Karen", "Hortua", "22", "10262975022")
 user3 = Persona("Daniela", "Zarate", "24", "83719287002")
 
 users = LinkedList()
